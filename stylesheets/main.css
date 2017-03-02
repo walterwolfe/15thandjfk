@@ -1,0 +1,103 @@
+* {box-sizing: border-box;}
+
+.nav-wrapper {
+	border-bottom: 1px solid #000;
+}
+
+.nav-main {
+	display: center;
+
+
+}
+
+.nav-main li {
+	border-bottom: 1px solid #000;
+	
+}
+
+.nav-main li: last-child {
+	border-bottom-style: none;
+}
+
+.nav-main li a {
+	display: block;
+	padding: 20px;
+	border:1px solid red;
+	
+}
+
+.nav-main li a.is-current {
+	background-color: red;
+}
+
+.hamburger {
+
+}
+
+body {
+	background: url(../images/B-G-lovepark.jpg) 
+}                     
+
+#top-link {
+	border-color: 3px solid red;
+	display: inline;
+}
+
+
+/* desktop version of our .nav-main */
+@media all and (min-width: 480px) {
+	.nav-main {
+		display: block;
+	}
+
+	body { 
+		background: url(../images/B-G-lovepark.jpg) 
+	}
+
+	.nav-main li {
+		display: inline-block;
+		border-bottom-style: none;
+	}
+	.is-mobile {
+		display: none;
+	}
+
+	#top-link {
+		border-color: 3px solid red;
+		display: inline;
+	}
+
+/*	.nav-main a {
+		border: 3px solid red;
+		display: center;
+	}*/
+	
+} 
+/*end of desktop version*/
+
+
+section {
+	height:600px;
+	
+}
+
+
+/* background image to resize as i go to mobile*/
+
+/* styling bottom link to goes back to head of page*/
+
+/* center nav-main links */
+
+/*does adding classes to desktop version interfer with mobile version.
+ can i add the same class twice in main.css*/
+
+
+
+
+
+
+
+
+
+
+
