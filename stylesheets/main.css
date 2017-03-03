@@ -5,25 +5,25 @@
 }
 
 .nav-main {
-	display: center;
-
+	/*display: center;*/
+	border:;
+	text-align: center;
 
 }
 
 .nav-main li {
 	border-bottom: 1px solid #000;
-	
+	margin-left: 0px;
 }
 
 .nav-main li: last-child {
-	border-bottom-style: none;
+	font-size: 20px;
 }
 
 .nav-main li a {
 	display: block;
-	padding: 20px;
-	border:1px solid red;
-	
+	padding: 50px;
+	padding-left: 0px;
 }
 
 .nav-main li a.is-current {
@@ -35,7 +35,8 @@
 }
 
 body {
-	background: url(../images/B-G-lovepark.jpg) 
+	background-image: url(../images/B-G-lovepark.jpg);
+	background-size: 100%;
 }                     
 
 #top-link {
@@ -46,12 +47,10 @@ body {
 
 /* desktop version of our .nav-main */
 @media all and (min-width: 480px) {
+
 	.nav-main {
 		display: block;
-	}
 
-	body { 
-		background: url(../images/B-G-lovepark.jpg) 
 	}
 
 	.nav-main li {
@@ -62,16 +61,6 @@ body {
 		display: none;
 	}
 
-	#top-link {
-		border-color: 3px solid red;
-		display: inline;
-	}
-
-/*	.nav-main a {
-		border: 3px solid red;
-		display: center;
-	}*/
-	
 } 
 /*end of desktop version*/
 
@@ -82,8 +71,6 @@ section {
 }
 
 
-/* background image to resize as i go to mobile*/
-
 /* styling bottom link to goes back to head of page*/
 
 /* center nav-main links */
@@ -92,7 +79,11 @@ section {
  can i add the same class twice in main.css*/
 
 
+/* trying to display 4 links in header to be center withought adding space between each link*/
 
+
+/*working on nav-main class titles with interfering with is-current class. trying to 
+have titiles with equal left space just centered. */
 
 
 
