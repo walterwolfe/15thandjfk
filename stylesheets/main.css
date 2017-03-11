@@ -4,10 +4,19 @@
 	/*border-bottom: 1px solid #000;*/
 }
 
+.hamburger {
+
+}
+
 .nav-main {
 	text-align: center;
-	margin-left: 20px;
+	margin-left: 30px;
 
+}
+
+.nav-fif {
+	font-size: 29px;
+	display: inline;
 }
 
 .nav-main li {
@@ -32,7 +41,7 @@
 }
 
 .nav-main li a.is-current {
-	background-color:;
+	
 }
 
 .nav-main a:hover {
@@ -41,13 +50,10 @@
 	font-weight: bold;
 }
 
-.hamburger {
-
-}
-
 body {
 	background-image: url(../images/B-G-lovepark.jpg);
 	background-size: 100%;
+	/*background-repeat: none;*/
 }                     
 
 #top-link {
@@ -55,24 +61,160 @@ body {
 	display: inline;
 }
 
-#page-jfk {
-	border: 1px solid red;
+#page-jfk  {
+	/*border: 4px solid red;*/
+	position: relative;
+	/*padding: auto;*/
+}
+
+.jfk-list {
+	border:;
+	/*position: absolute;
+	margin-left: 900px;
+	margin-top: 930px;*/
+	width: 50%;
+	margin: 40% auto 0 27%;
+	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+	font-size: 150px;
+}
+
+.jfk-list h3 {    
+	/*border: 1px solid red;*/
+	font-size: 10vw;
+	text-align: center;
+}
+
+.jfk-fif {
+	display: inline;
+	font-size: 13vw;
+	
+}
+
+.jfk-list h2 {    
+	/*border: 1px solid yellow;*/
+	font-size: 15vw;
+	text-align: center;
+}
+
+.jfk-list h1 {    
+	/*border: 1px solid pink;*/
+	font-size: 23vw;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.credits {
+	font-family: 'Six Caps', sans-serif;
+	opacity: 0.75;
+	/*border: 1px solid red;*/
+	text-align: center;
+	font-size: 60px;
+	width: 100%;
+	margin: 15% auto auto auto;
+
 }
 
 #page-social {
-	border: 1px solid blue;
+	/*border: 4px solid blue;*/
 }
 
+/* SOCIAL MEDIA SECTION BACON VID AND IMAGE DISPLAY*/
+
+.bacon-video {
+	/*border: 3px solid green;*/
+	width: 60%;
+	display: inline;
+	margin: 0px auto auto 20%;
+}
+
+.row-one {
+	/*border: 1px solid red;*/
+}
+
+
+.row-one img:first-child {
+	/*border: 1px solid red;*/
+	width: 25%;
+	margin-right: 0px;
+	display: inline;
+	float: left;
+}
+
+.row-one img:nth-child(2) {
+	/*border: 1px solid green;*/
+	width: 30.2%;
+	display: inline;
+	position: absolute;
+	margin:auto auto auto 10%;
+}
+
+.row-one img:nth-child(3) {
+	/*border: 1px solid green;*/
+	width: 24.9%;
+	margin-right: 0px;
+	display: inline;
+	float: right;	
+
+}
+
+.row-two {
+	clear: both;
+	/*border: 1px solid red;*/
+
+}
+
+
+.row-two img:first-child {
+	margin-top:80px;
+	width: 40%;
+}
+
+.row-two img:nth-child(2) {
+	width: 45.8%;
+	float: right;
+	margin-top: 80px;
+
+}
+
+.row-two img:nth-child(3) {
+
+}
+
+.row-two img:nth-child(4) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #page-donate {
-	border: 1px solid green;
+	border: 4px solid green;
+	background-color: black;
 }
 
 #page-contact {
-	border: 1px solid yellow;
+	border: 4px solid yellow;
+	background-color: black
 }
 
 section {
-	height:600px;
+	height:2500px;
 	
 }
 
@@ -98,29 +240,12 @@ section {
 
 
 
-
-
-
-
-
 /* styling bottom link to goes back to head of page*/
-
-/* center nav-main links */
-
-/*does adding classes to desktop version interfer with mobile version.
- can i add the same class twice in main.css*/
-
-
-/* trying to display 4 links in header to be center withought adding space between each link*/
-
-
-/*working on nav-main class titles with interfering with is-current class. trying to 
-have titiles with equal left space just centered. */
 
 /*when site goes to mobile and links go down onto black background
  text needs to turn from black to white*/
 
-
+/* first-child or grabbing certin parts of list for resize in jfk-list*/
 
 
 
