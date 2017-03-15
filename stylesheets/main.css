@@ -16,7 +16,7 @@
 
 .nav-fif {
 	font-size: 29px;
-	display: inline;
+	display: inline;	
 }
 
 .nav-main li {
@@ -53,7 +53,7 @@
 body {
 	background-image: url(../images/B-G-lovepark.jpg);
 	background-size: 100%;
-	/*background-repeat: none;*/
+	background-repeat: none;
 }                     
 
 #top-link {
@@ -104,104 +104,66 @@ body {
 	text-align: center;
 }
 
-.credits {
-	font-family: 'Six Caps', sans-serif;
-	opacity: 0.75;
-	/*border: 1px solid red;*/
-	text-align: center;
-	font-size: 60px;
-	width: 100%;
-	margin: 15% auto auto auto;
-
-}
-
-#page-social {
-	/*border: 4px solid blue;*/
-}
-
 /* SOCIAL MEDIA SECTION BACON VID AND IMAGE DISPLAY*/
 
-.bacon-video {
-	/*border: 3px solid green;*/
-	width: 60%;
-	display: inline;
-	margin: 0px auto auto 20%;
+#page-social {
+	border: 4px solid blue;
+	/*display: inline-block;*/
+	/*border: 5px solid purple;*/
+	/*margin: auto;*/
 }
+
+#page-social img {
+	width: 100%
+}	
+
+/*.bacon-video {
+	/*border: 3px solid green;*/
+	/*width: 60%;*/
+	/*display: inline;*/
+	/*margin: 0px auto auto 40%;*/
+/*}*/
 
 .row-one {
-	/*border: 1px solid red;*/
-}
+	/*float: left;
+	display: block;
+	position: relative;*/
+	/*border: 3px solid blue;*/
+	/*overflow: hidden;*/
 
+}
 
 .row-one img:first-child {
 	/*border: 1px solid red;*/
-	width: 25%;
-	margin-right: 0px;
-	display: inline;
-	float: left;
+	
+
 }
 
 .row-one img:nth-child(2) {
 	/*border: 1px solid green;*/
-	width: 30.2%;
-	display: inline;
-	position: absolute;
-	margin:auto auto auto 10%;
 }
 
 .row-one img:nth-child(3) {
 	/*border: 1px solid green;*/
-	width: 24.9%;
-	margin-right: 0px;
-	display: inline;
-	float: right;	
-
 }
 
 .row-two {
-	clear: both;
 	/*border: 1px solid red;*/
 
 }
 
-
 .row-two img:first-child {
-	margin-top:80px;
-	width: 40%;
+
 }
 
 .row-two img:nth-child(2) {
-	width: 45.8%;
-	float: right;
-	margin-top: 80px;
-
+	width:; 
+	height:;
 }
 
-.row-two img:nth-child(3) {
-
+.row-three img {
+	margin-top: 60px;
 }
-
-.row-two img:nth-child(4) {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #page-donate {
 	border: 4px solid green;
@@ -210,11 +172,21 @@ body {
 
 #page-contact {
 	border: 4px solid yellow;
-	background-color: black
+	background-color: white;
+	height: 150px;
+}
+
+#page-social {
+	height: 1400px;
+
+}
+
+#page-contact {
+	background-color: black;
 }
 
 section {
-	height:2500px;
+	height:2100px;
 	
 }
 
@@ -231,12 +203,47 @@ section {
 		border-bottom-style: none;
 
 	}
+
+	.credits {
+		font-family: 'Six Caps', sans-serif;
+		opacity: 0.75;
+		/*border: 1px solid red;*/
+		text-align: center;
+		font-size: 60px;
+		width: 100%;
+		margin: 15% auto auto auto;
+
+	}
+
 	.is-mobile {
 		display: none;
 	}
 
+	#page-social img {
+		width:32%;
+	/*border: 1px solid red;*/
+	}
+
+	.img-wrapper {
+		margin-left:50px;
+		/*border: 5px solid pink;*/
+ }
+
+
+
 } 
 /*end of desktop version*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -245,7 +252,10 @@ section {
 /*when site goes to mobile and links go down onto black background
  text needs to turn from black to white*/
 
-/* first-child or grabbing certin parts of list for resize in jfk-list*/
+/* when switching to mobile background image repeats istself*/
+
+/* image display hover captions with links to instagram*/
+
 
 
 
