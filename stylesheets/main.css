@@ -1,34 +1,33 @@
 * {box-sizing: border-box;}
 
+body {
+	background-image: url(../images/B-G-lovepark.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+} 
 .nav-wrapper {
 	/*border-bottom: 1px solid #000;*/
 }
-
 .hamburger {
 
 }
-
 .nav-main {
+	display: none;
 	text-align: center;
 	margin-left: 30px;
-
 }
-
 .nav-fif {
 	font-size: 29px;
 	display: inline;	
 }
-
 .nav-main li {
 	border-bottom: 1px solid #000;
 	margin-left: 20px;
-
 }
-
 .nav-main li: last-child {
 	font-size: 20px;
 }
-
 .nav-main li a {
 	display: block;
 	padding: 50px;
@@ -37,36 +36,24 @@
 	color: black;
 	font-size: 20px;
 	font-family: 'Playfair Display', serif;
-
 }
-
 .nav-main li a.is-current {
 	
 }
-
 .nav-main a:hover {
 	color:#979797;
 	text-shadow: 0 0 2px #bababa;
 	font-weight: bold;
 }
-
-body {
-	background-image: url(../images/B-G-lovepark.jpg);
-	background-size: 100%;
-	background-repeat: none;
-}                     
-
 #top-link {
 	border-color: 3px solid red;
 	display: inline;
 }
-
 #page-jfk  {
 	/*border: 4px solid red;*/
 	position: relative;
 	/*padding: auto;*/
 }
-
 .jfk-list {
 	border:;
 	/*position: absolute;
@@ -78,89 +65,75 @@ body {
 	font-family: 'Playfair Display', serif;
 	font-size: 150px;
 }
-
 .jfk-list h3 {    
 	/*border: 1px solid red;*/
 	font-size: 10vw;
 	text-align: center;
 }
-
 .jfk-fif {
 	display: inline;
 	font-size: 13vw;
 	
 }
-
 .jfk-list h2 {    
 	/*border: 1px solid yellow;*/
 	font-size: 15vw;
 	text-align: center;
 }
-
 .jfk-list h1 {    
 	/*border: 1px solid pink;*/
 	font-size: 23vw;
 	letter-spacing: 0px;
 	text-align: center;
 }
+.credits {
+	/*display:none;*/
+	font-family: 'Six Caps', sans-serif;
+	opacity: 0.75;
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin-top: 30%
+}
 
 /* SOCIAL MEDIA SECTION BACON VID AND IMAGE DISPLAY*/
 
-#page-social {
-	border: 4px solid blue;
-	/*display: inline-block;*/
-	/*border: 5px solid purple;*/
-	/*margin: auto;*/
+#social {
+	border: 1px solid blue;
+	display: block;
+	
 }
-
-#page-social img {
+#social img {
 	width: 100%
 }	
+.social-wrapper {
+	border: 1px solid blue;
 
-/*.bacon-video {
-	/*border: 3px solid green;*/
-	/*width: 60%;*/
-	/*display: inline;*/
-	/*margin: 0px auto auto 40%;*/
-/*}*/
-
+}
 .row-one {
 	/*float: left;
 	display: block;
 	position: relative;*/
 	/*border: 3px solid blue;*/
 	/*overflow: hidden;*/
-
 }
-
 .row-one img:first-child {
 	/*border: 1px solid red;*/
-	
-
 }
-
 .row-one img:nth-child(2) {
 	/*border: 1px solid green;*/
 }
-
 .row-one img:nth-child(3) {
 	/*border: 1px solid green;*/
 }
-
 .row-two {
 	/*border: 1px solid red;*/
-
 }
-
 .row-two img:first-child {
-
 }
-
 .row-two img:nth-child(2) {
 	width:; 
 	height:;
 }
-
 .row-three img {
 	margin-top: 60px;
 }
@@ -169,42 +142,43 @@ body {
 	border: 4px solid green;
 	background-color: black;
 }
-
-#page-contact {
-	border: 4px solid yellow;
+#contact {
+	/*border: 4px solid yellow;*/
 	background-color: white;
 	height: 150px;
+	display: block;
 }
 
-#page-social {
-	height: 1400px;
-
-}
-
-#page-contact {
-	background-color: black;
-}
 
 section {
-	height:2100px;
-	
+	margin-bottom: 100px;
 }
+#contact {
+	border: 1px solid red;
+	background-color: black;
+	margin: auto;
+}
+.contact-wrapper {
+	border:1px solid purple;
+}
+.contact-wrapper a:link,visited {
+	text-decoration: none;
+
+}
+
 
 /* desktop version of our .nav-main */
 @media all and (min-width: 480px) {
 
 	.nav-main {
 		display: block;
-
 	}
-
 	.nav-main li {
 		display: inline-block;
 		border-bottom-style: none;
-
 	}
-
 	.credits {
+		display: block;
 		font-family: 'Six Caps', sans-serif;
 		opacity: 0.75;
 		/*border: 1px solid red;*/
@@ -212,39 +186,28 @@ section {
 		font-size: 60px;
 		width: 100%;
 		margin: 15% auto auto auto;
-
 	}
-
 	.is-mobile {
 		display: none;
 	}
-
-	#page-social img {
+	#social img {
 		width:32%;
+
 	/*border: 1px solid red;*/
 	}
+	.social-wrapper {
+		text-align: center;
+		/*text-align: center;
+		margin-left:auto;
+		margin-right: auto;
+		border: 5px solid pink;*/
+	}
 
-	.img-wrapper {
-		margin-left:50px;
-		/*border: 5px solid pink;*/
- }
-
-
-
+	.contact-wrapper {
+		text-align: center;
+	}
 } 
 /*end of desktop version*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* styling bottom link to goes back to head of page*/

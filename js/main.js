@@ -14,8 +14,9 @@ OPW.utilities = {
 			
 			// write an if statement if 
 			// width > 420, do something 
-			if (w > 480 && w < 490){
-				console.log('found a desktop');
+			if (w > 480 && $('.nav-main').is('[style]')){
+				console.log('removed style');
+				$('.mav-main').removeAttr('style');
 			};
 		}); // closes window,resize event
 
