@@ -24,19 +24,23 @@ OPW.utilities = {
 		$('.nav-main a').on('click', function(event){
 			console.log(event);
 			event.preventDefault();
-		// remove 'is-current' class from all links in our nav-main
-		$('.nav-main a').removeClass('is-current');
-		// add a class of 'is-current' to $(this)
-		$(this).addClass('is-current');
-		// 'this'referes to the DOM element being operated on
-		// store $(this).attr('href') in a var
-		var pageToScrollTo = $(this).attr('href'); 
-		// use that var in our $.scrollTo() function
-		$(window).scrollTo(pageToScrollTo, 1000);
-			console.log(pageToScrollTo);
-	}) 
+			// remove 'is-current' class from all links in our nav-main
+			$('.nav-main a').removeClass('is-current');
+			// add a class of 'is-current' to $(this)
+			$(this).addClass('is-current');
+			// 'this'referes to the DOM element being operated on
+			// store $(this).attr('href') in a var
+			var pageToScrollTo = $(this).attr('href'); 
+			// use that var in our $.scrollTo() function
+			$(window).scrollTo(pageToScrollTo, 1000);
+				console.log(pageToScrollTo);
+		});
 
-
+		$('#top-link').on('click', function(event){
+			// alert('alert');
+			event.preventDefault();
+			$(window).scrollTo('#top', 3000);
+		});
 
 
 	}
