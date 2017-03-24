@@ -6,13 +6,6 @@ body {
 	background-repeat: no-repeat;
 	background-color: black;
 } 
-.nav-wrapper {
-	
-}
-.hamburger {
-
-}
-
 .nav-fif {
 	font-size: 29px;
 	display: inline;	
@@ -20,7 +13,6 @@ body {
 .nav-main li: last-child {
 	font-size: 20px;
 }
-
 .nav-main a:hover {
 	/*color:#979797;*/
 	text-shadow: 0 0 6px #bababa;
@@ -63,7 +55,7 @@ body {
 .credits {
 	display:none;
 	font-family: 'Six Caps', sans-serif;
-	opacity: 0.75;
+	/*opacity: 0.75;*/
 	/*border: 1px solid red;*/
 	text-align: center;
 	margin-top: 30%;
@@ -75,6 +67,7 @@ body {
 #social {
 	/*border: 1px solid blue;*/
 	display: block;
+	overflow: auto;
 }
 .row-one {
 	padding: 0 60px;
@@ -96,7 +89,7 @@ figcaption {
   background: black;
   background: rgba(0,0,0,0.75);
   color: white;
-  padding: 10px 20px;
+  padding: 10px 75px;
   opacity: 0;
   -webkit-transition: all 0.8s ease;
   -moz-transition: all 0.6s ease;
@@ -144,15 +137,40 @@ section {
 	/*border: 1px solid blue;*/
 }
 #contact img {
-	width: 18%;
+	width: 5%;
 	height: auto;
 	/*border: 1px solid red;*/
 }
 .contact-wrapper {
-	/*border: 1px solid red;*/
+	text-align: center;
 }
 .contact-wrapper a:link,visited {
 	text-decoration: none;
+}
+#contact img.insta {
+	width: 6%;
+	padding-bottom: 22px;
+	margin-right: 10px;
+}
+#contact img.twitter {
+	width: 7%;
+	padding-bottom: 19px;
+}
+#contact img.email {
+	width: 9%;
+	padding-bottom: 15px; 
+}
+#contact img.facebook {
+	
+	padding-bottom: 19px;
+	width: 7%;
+}
+#contact img.donate {
+	width: 9.5%;
+	padding-bottom: 12px;
+}
+.donate {
+	width: 10%;
 }
 .nav-main {
 	text-align: center;
@@ -173,9 +191,6 @@ section {
 	/*border: 1px solid red;*/
 	text-align: center;
 	margin-top: 30px;
-}
-#top-link {
-	/*-webkit-transition: width 2s;*/
 }
 
 /* DESKTOP VERSION OF OUR .NAV-MAIN */
@@ -241,24 +256,46 @@ section {
 
 	.social-wrapper {
 		text-align: center;
-		/*text-align: center;
-		margin-left:auto;
-		margin-right: auto;
-		border: 5px solid pink;*/
+	}
+	#contact img.insta {
+		width: 6%;
+		padding-bottom: 22px;
+		margin-right: 10px;
+	}
+	#contact img.twitter {
+		/*border: 1px solid red;*/
+		width: 7%;
+		padding-bottom: 15px;
+	}
+	#contact img.facebook {
+		padding-bottom:25px;
+		width: 7%;
+	}
+	#contact img.email {
+		width: 9%;
+		padding-bottom: 10px; 
+
+	}
+	#contact img.donate {
+		width: 9.5%;
+		/*border: 1px solid red;*/
+		padding: 0%;
 	}
 	#contact img {
 		width: 5%;
 		height: auto;
+		padding-bottom: 40px;
 	}
 	.contact-wrapper {
 		text-align: center;
+		
 	}
-
 	.top-wrapper {
 		/*border: 1px solid red;*/
 		text-align: center;
 		margin-top: 60px;
-}
+	}
+	
 } 
 
 /*END OF OUR DESKTOP VERSION*/
@@ -270,12 +307,6 @@ section {
 
 
 
-
-/* styling bottom link to goes back to head of page*/
-
-/* image display hover captions with links to instagram*/
-
-/*make 15th and jfk slightly closer to nav-main*/
 
 
 

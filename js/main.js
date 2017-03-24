@@ -32,14 +32,14 @@ OPW.utilities = {
 			// store $(this).attr('href') in a var
 			var pageToScrollTo = $(this).attr('href'); 
 			// use that var in our $.scrollTo() function
-			$(window).scrollTo(pageToScrollTo, 1000);
+			$(window).scrollTo(pageToScrollTo, 2000);
 				console.log(pageToScrollTo);
 		});
 
 		$('#top-link').on('click', function(event){
 			// alert('alert');
 			event.preventDefault();
-			$(window).scrollTo('#top', 3000);
+			$(window).scrollTo('#top', 2000);
 		});
 
 
